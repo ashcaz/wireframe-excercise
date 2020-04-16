@@ -1,5 +1,6 @@
 body{
-  background-image; url(images/background-image.jpg);
+  background-image: url(/images/bgimage.jpg);
+  background-size: cover;
 }
 nav{
   background-color: rgb(18, 65, 85);
@@ -49,18 +50,28 @@ li{
   margin-left:30px;
 }
 h2{
+  background-color: white;
   font-size: 30px;
   text-align: left;
   margin-bottom: 20px;
 }
 #scroll{
+  background-color: white;
   padding:10px 0px;
-  height:300px;
-  width:120%;
+  height: 280px;
+  width:450px;
   overflow:scroll;
 }
 button{
-  color: blue;
+  color:rgb(18, 65, 85);
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(255,255,255,.75);
+  cursor: pointer;
+  height: 40px;
+  width: 33%;
+  border-radius: 4px;
+  margin: 10px 10px 10px 0px;
 }
 footer{
   background-color: rgb(18, 65, 85);
